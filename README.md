@@ -1,10 +1,10 @@
-# 📝 Docker-Based Full Stack Todo App with Nginx Reverse Proxy, HTTPS, and CI/CD
+#  Docker-Based Full Stack Todo App with Nginx Reverse Proxy, HTTPS, and CI/CD
 
 A full stack Todo app built using **MongoDB, Express.js, and React**, containerized with **Docker**, orchestrated via **Docker Compose**, and deployed on **AWS EC2** with a **root-level Nginx reverse proxy** and **HTTPS support (Let's Encrypt)**.
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Frontend**: React
 - **Backend**: Express.js (Node.js)
@@ -17,7 +17,7 @@ A full stack Todo app built using **MongoDB, Express.js, and React**, containeri
 
 ---
 
-## 🚀 Project Structure
+##  Project Structure
 
 ```
 docker-todo-app/
@@ -90,7 +90,7 @@ docker-compose up -d
 
 ---
 
-### ✅ Step 5: Setup Nginx Reverse Proxy
+###  Step 5: Setup Nginx Reverse Proxy
 
 Create `/etc/nginx/sites-available/todoapp.conf`:
 
@@ -117,7 +117,7 @@ sudo systemctl restart nginx
 
 ---
 
-### ✅ Step 6: Configure Domain DNS
+###  Step 6: Configure Domain DNS
 
 - Log in to Hostinger
 - Go to DNS management
@@ -125,7 +125,7 @@ sudo systemctl restart nginx
 
 ---
 
-### ✅ Step 7: Add HTTPS with Let’s Encrypt
+###  Step 7: Add HTTPS with Let’s Encrypt
 
 ```bash
 sudo apt install certbot python3-certbot-nginx -y
@@ -134,13 +134,13 @@ sudo certbot --nginx -d arihantdugge.com
 
 ---
 
-### ✅ Step 8: GitHub Actions CI/CD (Optional)
+###  Step 8: GitHub Actions CI/CD (Optional)
 
 Create `.github/workflows/docker.yml` with build & push steps.
 
 ---
 
-## ✅ Live Demo
+##  Live Demo
 
 🌍 [https://arihantdugge.com](https://arihantdugge.com)
 
