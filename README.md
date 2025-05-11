@@ -37,7 +37,7 @@ docker-todo-app/
 
 ## ⚙️ Step-by-Step Guide
 
-### ✅ Step 1: Clone the Repository
+###  Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/docker-todo-app.git
@@ -46,7 +46,7 @@ cd docker-todo-app
 
 ---
 
-### ✅ Step 2: Build and Tag Docker Images
+###  Step 2: Build and Tag Docker Images
 
 ```bash
 cd backend
@@ -57,7 +57,7 @@ docker build -t todo-frontend .
 
 ---
 
-### ✅ Step 3: Push Images to Docker Hub
+###  Step 3: Push Images to Docker Hub
 
 ```bash
 docker tag todo-backend dockeruserari/todo-backend
@@ -69,7 +69,7 @@ docker push dockeruserari/todo-frontend
 
 ---
 
-### ✅ Step 4: Set Up AWS EC2
+###  Step 4: Set Up AWS EC2
 
 ```bash
 # Launch Ubuntu EC2, SSH in:
