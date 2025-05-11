@@ -28,7 +28,9 @@ docker-todo-app/
 ├── nginx/
 │   └── nginx.conf
 ├── docker-compose.yml
-└── README.md
+├── README.md
+├── images/
+│   └── screenshot.png
 ```
 
 ---
