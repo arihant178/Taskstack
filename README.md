@@ -188,6 +188,4 @@ volumes:
 
 ---
 
-## 📜 License
 
-MIT License
