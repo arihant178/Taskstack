@@ -40,7 +40,7 @@ docker-todo-app/
 ###  Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/docker-todo-app.git
+git clone https://github.com/arihant178/Taskstack
 cd docker-todo-app
 ```
 
